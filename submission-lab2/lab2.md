@@ -49,28 +49,28 @@ Fig 8. This is the screenshot of the home page. Here the user can see the langua
 ### Installation
 1. Clone the repository
 
-'''bash
+```bash
 $ git clone <url>
-'''
+```
 
 2. Install the requirements.txt
 
-'''bash
+```bash
 $ pip install -r requirements.txt
-'''
+```
 
 3. Run the server and test
 
-'''bash
+```bash
 $ python manage.py runserver
-'''
+```
 
 ## Instructions for the evaluator
 NOTE: Please make sure to add the static/ provided with the project to see proper styling. The static folder should be placed under the BASE_DIR of the project.
 NOTE: The project comes with fixtures. The seed user is system and the email is system@example.com. The password is System123_ and the user is a superuser. The company is also seeded with the name "HelloWorld Company". To load the fixtures run the following commands:
-'''bash
+```bash
 $ python manage.py loaddata accounts/fixtures/user.json
 $ python manage.py loaddata accounts/fixtures/company.json
-'''
+```
 NOTE: Make sure to use the email to login and not the username.
 
