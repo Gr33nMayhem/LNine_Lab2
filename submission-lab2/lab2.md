@@ -47,7 +47,11 @@ $ python manage.py runserver
 '''
 
 ## Instructions for the evaluator
-NOTE: Please make sure to add the static/ provided with the project to see proper styling.
-NOTE: The project comes with a built in superuser with the following credentials: email: system@xyz.com and password: System123_ user: system
+NOTE: Please make sure to add the static/ provided with the project to see proper styling. The static folder should be placed under the BASE_DIR of the project.
+NOTE: The project comes with fixtures. The seed user is system and the email is system@example.com. The password is System123_ and the user is a superuser. The company is also seeded with the name "HelloWorld Company". To load the fixtures run the following commands:
+'''bash
+$ python manage.py loaddata accounts/fixtures/user.json
+$ python manage.py loaddata accounts/fixtures/company.json
+'''
 NOTE: Make sure to use the email to login and not the username.
 

@@ -1,0 +1,8 @@
+[
+  {
+    "model": "accounts.company",
+    "fields": {
+      "name": "HelloWorld Company"
+    }
+  }
+]
